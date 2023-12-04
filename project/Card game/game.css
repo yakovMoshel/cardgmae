@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/orenge\ car2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+.centered {
+  /* background: rgba(24, 22, 22, 0.221); */
+  margin-left: 30%;
+  margin-right: 34%;
+  padding: 40px;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 30px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.scoreboard {
+  width: 300px;
+  background-color: #333;
+  color: white;
+  margin-right: auto;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+.username {
+  margin: 5px 0;
+  font-size: 18px;
+  padding-left: 50px;
+
+}
+
+.score {
+  font-size: 24px;
+  padding-left: 50px;
+}
+
+.time {
+  font-style: italic;
+  padding-left: 50px;
+}
+
+.board-card {
+  background-color: #120101b8;
+  display: flex;
+  border-radius: 10px;
+  width: 50rem;
+  height: 28rem;
+  align-content: center;
+  margin-left: 345px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  background-image: url("img/orenge\ car2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 150px;
+  width: 130px;
+  margin: 10px;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 10px;
+  
+}
+.card:hover{
+  transform: scale(1.2)
+}
+
+.backcard{
+  background-image:url("https://images.pexels.com/photos/159293/car-engine-motor-clean-customized-159293.jpeg?auto=compress&cs=tinysrgb&w=600") ;
+
+}
